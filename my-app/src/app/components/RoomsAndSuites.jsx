@@ -37,6 +37,9 @@ export default function RoomsAndSuites() {
       rightImg: "/images/room2-right.jpg",
       title: "DELUXE KING ROOM",
     },
+
+
+    
     {
       leftImg: "/images/room2-left.jpg",
       rightImg: "/images/room2-right.jpg",
