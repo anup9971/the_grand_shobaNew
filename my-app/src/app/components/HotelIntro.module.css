@@ -1,0 +1,75 @@
+.section {
+  background: #111; /* dark bg */
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.container {
+  display: flex;
+
+
+
+
+
+
+
+  
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+}
+
+.imageWrapper {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.contentWrapper {
+  flex: 1;
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  position: relative;
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Brush Decorations */
+.brushTop {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 60px;
+}
+
+.brushBottom {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  width: 80px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,41 @@
+.citySection {
+  background-color: #1a1a1a; /* dark bg */
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cityCard {
+  background: white;
+  padding: 0;
+  border-radius: 8px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+}
+
+.videoWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cityName {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.brushStroke {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto 20px;
+  display: block;
+}
