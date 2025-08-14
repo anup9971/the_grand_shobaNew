@@ -20,7 +20,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { useParams } from "next/navigation";
 import { rooms } from "@/roomData";
 
-import RelatedRooms from "@/app/components/room&suite/RelatedRooms";
+import RelatedRooms from "@/app/components/relatedRooms/RelatedRooms";
+import Reviews from "@/app/components/relatedRooms/Reviews";
 
 
 
@@ -156,6 +157,12 @@ export default function Page({params}) {
 {/* -------------------------------------  Related room section -------------------------------------- */}
 
    <RelatedRooms  id ={id}  />
+
+
+
+   {/* ------------------------------------ Reviews resction ----------------------------------------------------- */}
+    
+    <Reviews/>
   </>
 
 
