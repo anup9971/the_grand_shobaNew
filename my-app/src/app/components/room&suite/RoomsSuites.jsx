@@ -7,7 +7,7 @@ export default function RoomsSuites() {
     <>
 
         {/* ------------------------- for Destop screen ---------------------- */}
-       <div className="bg-[#f8f8f8] md:flex hidden">
+       <div className="bg-[#f8f8f8]  md:flex hidden object-contain" style={{backgroundImage:"url(/room&suite/roombg.png)", objectFit:"contain"}}>
            <section className="max-w-7xl mx-auto px-4 py-10 md:py-16">
       {/* Heading */}
       <h2 className="text-3xl md:text-7xl text-gray-800 font-serif mb-6">Rooms & Suites</h2>

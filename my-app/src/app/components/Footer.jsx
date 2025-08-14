@@ -31,7 +31,7 @@ export default function Footer() {
             <li><a href="#" className="hover:underline">About Us</a></li>
             <li><a href="#" className="hover:underline">Careers ↗</a></li>
             <li><a href="#" className="hover:underline">Investor Relations ↗</a></li>
-            <li><a href="#" className="hover:underline">Hyatt Development ↗</a></li>
+            <li><a href="#" className="hover:underline">Grand Shoba Development ↗</a></li>
             <li><a href="#" className="hover:underline">Corporate Responsibility</a></li>
             <li><a href="#" className="hover:underline">Newsroom</a></li>
           </ul>
@@ -54,24 +54,24 @@ export default function Footer() {
         
         {/* Left */}
         <div>
-          <h3 className="font-bold">THE HYATT.COM BEST RATE GUARANTEE</h3>
+          <h3 className="font-bold">THE GRAND SHOBA.COM BEST RATE GUARANTEE</h3>
           <button className="border mt-2 px-4 py-2 text-sm hover:bg-white hover:text-black transition">
             LEARN MORE
           </button>
         </div>
 
         {/* Center */}
-        <div>
+        {/* <div>
           <h3 className="font-bold mb-2">GET THE MOBILE APP</h3>
           <div className="flex gap-3">
             <img src="/appstore.png" alt="App Store" className="h-10" />
             <img src="/googleplay.png" alt="Google Play" className="h-10" />
           </div>
-        </div>
+        </div> */}
 
         {/* Right */}
         <div>
-          <h3 className="font-bold mb-2">CONNECT WITH HYATT</h3>
+          <h3 className="font-bold mb-2">CONNECT WITH GRAND SHOBA</h3>
           <div className="flex gap-3 text-lg">
             <a href="#"><FaFacebookF /></a>
             <a href="#"><FaInstagram /></a>
