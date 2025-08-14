@@ -45,7 +45,7 @@ export const rooms = [
     view: "View Varies",
     size: "36 - 41 sq m",
     description: "Spacious room featuring two twin Hyatt Grand Beds, open-plan bathroom, desk, and daybed.",
-   image:["/room&suite/room6.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
+   image:["/room&suite/room3.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
     {
     id: 7,
@@ -53,7 +53,7 @@ export const rooms = [
     view: "City View",
     size: "36 - 41 sq m",
     description: "Spacious room featuring a king Hyatt Grand Bed, open-plan bathroom, desk, and daybed.",
-   image:["/room&suite/room7.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
+   image:["/room&suite/room2.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const rooms = [
     view: "Suites",
     size: "36 - 41 sq m",
     description: "Spacious room featuring two twin Hyatt Grand Beds, open-plan bathroom, desk, and daybed.",
-    image:["/room&suite/room8.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
+    image:["/room&suite/room1.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
   
 ];
