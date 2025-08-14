@@ -18,7 +18,7 @@ const CitySection = () => {
         </div>
         <h2 className={styles.cityName}>Delhi</h2>
         <img
-          src="/images/brush.png"
+          src="/images/v-hotel-new1.jpg"
           alt="underline"
           className={styles.brushStroke}
         />
