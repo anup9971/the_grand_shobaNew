@@ -44,10 +44,10 @@ export default function HeroSection() {
               
               
               <button  onClick={()=>setReadMore(!readMore)}>
-                   <span className='flex pt-4 font-light'>Read More{readMore? <FiChevronUp className='text-2xl ' />:<FiChevronDown className='text-2xl '/>} </span>
+                   <span className='flex text-black pt-4 font-light'>Read More{readMore? <FiChevronUp className='text-2xl ' />:<FiChevronDown className='text-2xl '/>} </span>
               </button>
-                 <Link href="/" >
-                <div className=' p-2 hover:text-white hover:bg-black  mt-8 border w-40'> SEE DETAILS</div>
+                 <Link href="/offers/65095a521dd1525e9c420d4ce5ab9d70" >
+                <div className=' text-black p-2 hover:text-white hover:bg-black  mt-8 border w-40'> SEE DETAILS</div>
               </Link>
             </div>        
         </div>
@@ -78,11 +78,11 @@ export default function HeroSection() {
               
               
               <button  onClick={()=>setSecondReadMore(!secondreadMore)}>
-                   <span className='flex pt-4 font-light'>Read More{secondreadMore? <FiChevronUp className='text-2xl ' />:<FiChevronDown className='text-2xl '/>} </span>
+                   <span className='flex pt-4 font-light text-black'>Read More{secondreadMore? <FiChevronUp className='text-2xl ' />:<FiChevronDown className='text-2xl '/>} </span>
               </button>
 
-              <Link href="/" >
-                <div className='p-2 mt-8 border hover:text-white hover:bg-black w-40'> SEE DETAILS</div>
+              <Link href="/offers/75095a521dd1525e9c420d4ce5ab9d77" >
+                <div className='p-2  text-black mt-8 border hover:text-white hover:bg-black w-40'> SEE DETAILS</div>
               </Link>
                
             </div>
