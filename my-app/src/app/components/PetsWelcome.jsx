@@ -48,14 +48,16 @@ export default function PetsWelcome() {
 
   {/* Dog Image */}
   <div className="relative z-10 rounded-xl overflow-hidden shadow-lg">
-    <Image
-      src="/images/v-hotel-new2.jpg"
-      alt="Dog relaxing"
-      width={500}
-      height={650} // taller ratio
-      className="object-cover w-full h-auto" // let height grow naturally
-    />
-  </div>
+  <Image
+    src="/images/v-hotel-new2.jpg"
+    alt="Dog relaxing"
+    width={500}
+    height={400}
+    className="object-cover"
+    style={{ width: "500px", height: "300px" }} // yahan CSS fix
+  />
+</div>
+
 </div>
 
       </div>
