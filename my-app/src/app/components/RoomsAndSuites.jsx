@@ -27,7 +27,7 @@ export default function RoomsAndSuites() {
           backgroundImage: 'url("/images/v-hotel-new2.jpg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
-          minHeight: "700px", // background को लंबा करने के लिए
+          minHeight: "700px",
         }}
       ></div>
 
@@ -36,16 +36,26 @@ export default function RoomsAndSuites() {
         <Swiper modules={[Navigation]} navigation slidesPerView={1} spaceBetween={20}>
           {slides.map((slide, i) => (
             <SwiperSlide key={i}>
-              <div className="grid grid-cols-2 gap-4">
+              {/* Mobile: single image with margin | Desktop: 2 columns */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <img
                   src={slide.leftImg}
                   alt=""
-                  className="rounded-lg h-[380px] w-full object-cover" // image height कम
+                  className="
+                    rounded-lg object-cover shadow-lg
+                    h-[450px] w-[90%] mx-auto    /* mobile: single image with margin */
+                    md:h-[380px] md:w-full       /* desktop: normal */
+                  "
                 />
+                {/* ye dusra image sirf desktop par dikhana hai */}
                 <img
                   src={slide.rightImg}
                   alt=""
-                  className="rounded-lg h-[380px] w-full object-cover" // image height कम
+                  className="
+                    hidden md:block
+                    rounded-lg object-cover shadow-lg
+                    md:h-[380px] md:w-full
+                  "
                 />
               </div>
               <div className="flex justify-between mt-4 text-lg font-medium px-2">

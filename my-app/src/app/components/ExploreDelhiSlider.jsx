@@ -30,8 +30,7 @@ export default function ExploreDelhiSlider() {
       distance: "7.3 MI / 11.77 KM AWAY",
       color: "bg-teal-300",
     },
-
-      {
+{
       category: "SHOPPING",
       name: "Emporio Mall",
       distance: "2.2 MI / 3.61 KM AWAY",
@@ -50,7 +49,7 @@ export default function ExploreDelhiSlider() {
       color: "bg-teal-300",
     },
 
-      {
+    {
       category: "SHOPPING",
       name: "Emporio Mall",
       distance: "2.2 MI / 3.61 KM AWAY",
@@ -69,7 +68,7 @@ export default function ExploreDelhiSlider() {
       color: "bg-teal-300",
     },
 
-      {
+    {
       category: "SHOPPING",
       name: "Emporio Mall",
       distance: "2.2 MI / 3.61 KM AWAY",
@@ -88,28 +87,11 @@ export default function ExploreDelhiSlider() {
       color: "bg-teal-300",
     },
 
-      {
-      category: "SHOPPING",
-      name: "Emporio Mall",
-      distance: "2.2 MI / 3.61 KM AWAY",
-      color: "bg-red-400",
-    },
-    {
-      category: "SHOPPING",
-      name: "Aap ki Pasand Tea Gallery",
-      distance: "9.5 MI / 15.36 KM AWAY",
-      color: "bg-yellow-300",
-    },
-    {
-      category: "CULTURE & DAY TRIPS",
-      name: "Gurudwara Bangla Sahib",
-      distance: "7.3 MI / 11.77 KM AWAY",
-      color: "bg-teal-300",
-    },
+    // more data...
   ];
 
   useEffect(() => {
-    setSwiperReady(true); // Delay swiper render until refs are ready
+    setSwiperReady(true);
   }, []);
 
   return (
@@ -118,7 +100,7 @@ export default function ExploreDelhiSlider() {
       <div
         className="absolute top-0 left-0 w-full h-1/2 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/delhi-bg.jpg')", // replace with your image
+          backgroundImage: "url('/delhi-bg.jpg')",
         }}
       ></div>
       {/* Overlay */}
@@ -173,18 +155,18 @@ export default function ExploreDelhiSlider() {
           </Swiper>
         )}
 
-        {/* White arrow buttons */}
+        {/* White arrow buttons (perfectly centered icons) */}
         <div
           ref={prevRef}
           className="absolute top-1/2 -translate-y-1/2 left-2 z-10 flex items-center justify-center w-10 h-10 border border-gray-300 rounded-full cursor-pointer bg-white text-black shadow-lg"
         >
-          ‹
+          <span className="text-xl leading-none text-center">‹</span>
         </div>
         <div
           ref={nextRef}
           className="absolute top-1/2 -translate-y-1/2 right-2 z-10 flex items-center justify-center w-10 h-10 border border-gray-300 rounded-full cursor-pointer bg-white text-black shadow-lg"
         >
-          ›
+          <span className="text-xl leading-none text-center">›</span>
         </div>
       </div>
     </div>

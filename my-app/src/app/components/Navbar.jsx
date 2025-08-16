@@ -57,7 +57,7 @@ export default function Navbar() {
 
         {/* Hotel Info */}
         <div className={styles.hotelInfo}>
-          <strong>ANDAZ DELHI</strong>
+          <strong>THE GRAND SHOBA</strong>
           <p>Asset No. 1, Aerocity, New Delhi - 110037, Delhi, India</p>
           <p>📞 Tel: +91 11 4903 1234</p>
           <p>⭐ 4.5 (1411 Reviews)</p>
