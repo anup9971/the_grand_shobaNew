@@ -47,7 +47,7 @@ const settings = {
 
       <p className="mb-10 font-light text-black ">These rooms are available for your selected dates, but do not match one or more of your applied filters.</p>
       {/* Responsive grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {relatedRooms.map((item) => (
           <div
             key={item.id}
