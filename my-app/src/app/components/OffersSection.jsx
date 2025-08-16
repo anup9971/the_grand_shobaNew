@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import BrandSection from "./room&suite/BrandSection";
 
 const offers = [
   {
@@ -330,63 +331,7 @@ export default function OffersSection() {
 
 
 {/* World of Hyatt Section */}
-<section className="bg-white py-12">
-  <div className="max-w-6xl mx-auto px-4 border-4 border-blue-500 relative">
-    {/* Top Blue Box */}
-    <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white px-4 py-1 text-xs font-bold tracking-widest">
-      WORLD OF HYATT
-    </div>
-
-    {/* Category Row */}
-    <div className="py-6 border-b border-blue-300 flex flex-wrap items-center justify-center gap-8">
-      <span className="text-blue-600 font-bold text-sm w-24 text-left">LUXURY</span>
-      <img src="/images/v-hotel-new1.jpg" alt="Park Hyatt" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Alila" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Miraval" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Impression" className="h-6" />
-    </div>
-
-    <div className="py-6 border-b border-blue-300 flex flex-wrap items-center justify-center gap-8">
-      <span className="text-blue-600 font-bold text-sm w-24 text-left">LIFESTYLE</span>
-      <img src="/images/v-hotel-new1.jpg" alt="Andaz" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Thompson" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Dream" className="h-6" />
-      {/* Add rest logos */}
-    </div>
-
-    <div className="py-6 border-b border-blue-300 flex flex-wrap items-center justify-center gap-8">
-      <span className="text-blue-600 font-bold text-sm w-24 text-left">INCLUSIVE</span>
-      <img src="/images/v-hotel-new1.jpg" alt="Zoetry" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Hyatt Ziva" className="h-6" />
-      {/* Add rest logos */}
-    </div>
-
-    <div className="py-6 border-b border-blue-300 flex flex-wrap items-center justify-center gap-8">
-      <span className="text-blue-600 font-bold text-sm w-24 text-left">CLASSICS</span>
-      <img src="/images/v-hotel-new1.jpg" alt="Grand Hyatt" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Hyatt Regency" className="h-6" />
-      {/* Add rest logos */}
-    </div>
-
-    <div className="py-6 flex flex-wrap items-center justify-center gap-8">
-      <span className="text-blue-600 font-bold text-sm w-24 text-left">ESSENTIALS</span>
-      <img src="/images/v-hotel-new1.jpg" alt="Caption" className="h-6" />
-      <img src="/images/v-hotel-new1.jpg" alt="Hyatt Place" className="h-6" />
-      {/* Add rest logos */}
-    </div>
-
-    {/* Bottom Blue Box */}
-    <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white px-4 py-1 text-xs font-bold tracking-widest">
-      BE MORE HERE
-    </div>
-  </div>
-
-  {/* Small Note */}
-  <p className="text-center text-xs text-gray-500 mt-8">
-    *Coming soon to World of Hyatt
-  </p>
-</section>
-
+<BrandSection/>
     </section>
 
 

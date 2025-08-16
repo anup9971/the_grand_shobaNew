@@ -1,18 +1,21 @@
-/* Navbar fixed wrapper */
+/* 🔹 Navbar fixed wrapper */
 .navWrapper {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* sab cheezon ke upar */
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Top white bar */
+/* 🔹 Top white bar */
 .topBar {
   background: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 5px 20px;
+  align-items: center;
+  padding: 6px 20px;
   font-size: 14px;
   border-bottom: 1px solid #ddd;
 }
@@ -26,9 +29,10 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  font-size: 13px;
 }
 
-/* Main navbar */
+/* 🔹 Main navbar (black) */
 .mainNav {
   background: #1c1c1c;
   color: white;
@@ -41,18 +45,19 @@
 .navLeft {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .hamburger {
-  font-size: 22px;
+  font-size: 24px;
   cursor: pointer;
 }
 
 .navCenter {
   font-family: serif;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 3px;
+  text-align: center;
 }
 
 .navRight {
@@ -64,17 +69,24 @@
 .locations {
   font-weight: bold;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .bookBtn {
   background: #d7df3f;
   border: none;
-  padding: 8px 20px;
+  padding: 8px 16px;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
 }
 
-/* Full Screen Menu Overlay */
+.bookBtn:hover {
+  background: #c4cf2e;
+}
+
+/* 🔹 Full Screen Menu Overlay */
 .fullMenu {
   position: fixed;
   top: 0;
@@ -89,8 +101,8 @@
   padding: 0 20px;
   transform: translateX(-100%);
   opacity: 0;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-  z-index: 999;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  z-index: 1500;
 }
 
 .show {
@@ -101,7 +113,7 @@
 .closeBtn {
   font-size: 28px;
   align-self: flex-end;
-  margin-top: 20px;
+  margin: 20px 0;
   cursor: pointer;
 }
 
@@ -109,7 +121,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 50px;
 }
 
@@ -132,21 +144,65 @@
   margin-bottom: 20px;
 }
 
-/* Responsive */
-@media (min-width: 2000px) {
-  .hamburger {
-    display: block;
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+  .locations {
+    display: none; /* Hide locations on mobile */
   }
-  .menuLinks {
-    flex-direction: row;
-    gap: 30px;
+
+  .navLeft strong {
+    display: none; /* Hide name beside hamburger on mobile */
   }
-  .fullMenu {
-    display: none;
+
+  .bookBtn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .navCenter {
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
-/* Page content ko navbar ke neeche start karna */
+@media (min-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  /* ❌ Ye line hata di gayi hai, warna desktop pe menu click nahi hota
+  .fullMenu {
+    display: none;
+  } */
+}
+
+/* 🔹 Page content ko navbar ke neeche start karna */
 .pageContent {
-  padding-top: 110px; /* TopBar + MainNav ki total height */
+  padding-top: 110px;
+}
+
+
+
+
+/* Mobile screens ke liye (<=768px) */
+@media (max-width: 768px) {
+  .mainNav {
+    position: relative;
+    display: flex;
+    align-items: center; /* vertical center align */
+    justify-content: space-between; /* left-right balance */
+  }
+
+  .navCenter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%); /* horizontal + vertical dono center */
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
 }
