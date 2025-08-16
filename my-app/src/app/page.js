@@ -11,6 +11,7 @@ import Amenities from './components/Amenities';
 import PetsWelcome from './components/PetsWelcome';
 import AccessibilitySection from './components/AccessibilitySection';
 import OffersSection from './components/OffersSection';
+import Bgtest from './components/Bgtest';
 export default function page() {
   return (
     <>
