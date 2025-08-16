@@ -5,6 +5,8 @@ import React, { useState } from 'react'
 import { IoIosArrowDown, IoIosArrowRoundBack, IoIosArrowUp } from "react-icons/io";
 import toast from 'react-hot-toast';
 import { useParams } from 'next/navigation';
+import AboutSection from '@/app/components/room&suite/AboutSection';
+import BrandSection from '@/app/components/room&suite/BrandSection';
 
 
 export default function page({params}) {
@@ -40,7 +42,7 @@ export default function page({params}) {
   };
   return (
     <>
-     <div className='grid md:grid-cols-2  h-auto' style={{backgroundImage:"url(/room&suite/roombg.png)", backgroundSize:"cover" , backgroundRepeat:"no-repeat"}}>
+     <div className='grid md:grid-cols-2  pb-22 h-auto' style={{backgroundImage:"url(/room&suite/roombg.png)", backgroundSize:"cover" , backgroundRepeat:"no-repeat"}}>
       <div className='col-span-1 pt-12 w-full md:p-16 p-2 '>
          <div className='relative  w-full  h-130 md:h-154 rounded-2xl '>
          <Image 
@@ -106,6 +108,8 @@ export default function page({params}) {
                  
       </div> 
      </div>
+     <AboutSection/>
+     <BrandSection/>
     </>
   )
 }
