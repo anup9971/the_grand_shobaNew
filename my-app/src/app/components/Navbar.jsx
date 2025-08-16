@@ -47,12 +47,25 @@ export default function Navbar() {
       <div className={`${styles.fullMenu} ${menuOpen ? styles.show : ""}`}>
         <span className={styles.closeBtn} onClick={() => setMenuOpen(false)}>✕</span>
 
-        <div className={styles.menuLinks}>
+        <div className={`${styles.menuLinks} overflow-x-scroll webkit-scroll-none `}   style={{
+              overflowY: "scroll",
+              // msOverflowStyle: "none",   // IE/Edge
+              scrollbarWidth: "none"     // Firefox
+            }} >
           <a href="/">Home</a>
           <a href="/room&suite">Rooms & Suites</a>
           <a href="/dining">Dining</a>
           <a href="/offers">Offers</a>
           <a href="#">Events & Attractions</a>
+          <a href="#">Spa</a>
+          <a href="#">Meetings & Events</a>
+          <a href="#">Weddings & Celebrations</a>
+          <a href="#">Parking & Transportation</a>
+          <a href="/hotel-info">Hotel Info</a>
+          <a href="#">Gallery</a>
+          <a href="#">Reviews</a>
+          <a href="#">Hotel Policies</a>
+          <a href="#">About Andaz</a>
         </div>
 
         {/* Hotel Info */}
