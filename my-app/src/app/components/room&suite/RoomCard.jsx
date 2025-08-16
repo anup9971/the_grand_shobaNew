@@ -7,7 +7,8 @@ import { rooms } from "@/roomData";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BookingModal from "./BookingModal";
+// import BookingModal from "./BookingModal";
+import { useRouter } from "next/navigation";
 const PrevArrow = ({ onClick }) => (
   <button
     onClick={onClick}
@@ -27,8 +28,8 @@ const NextArrow = ({ onClick }) => (
 );
 
 export default function RoomCard() {
-  const [roomId, setRoomId]= useState("")
-  const [isOpen, setIsOpen] = useState(false);
+  
+  let  router = useRouter()
   const [view, setView]=useState([
     "All", "Airport View","View Varies","City View"
 
@@ -118,13 +119,13 @@ export default function RoomCard() {
                           {room.size} / {room.view}
                         </p>
                         <p className="text-gray-700 mb-2">{room.description}</p>
-                        <button onClick={()=> {setIsOpen(true), setRoomId(room.id)}} className="border px-3 mt-4 mb-6  py-2 w-full text-black   font-semibold hover:bg-black hover:text-white">
+                        <button onClick={()=> {router.push(`/check-availability/${room.id}`)}} className="border px-3 mt-4 mb-6  py-2 w-full text-black   font-semibold hover:bg-black hover:text-white">
                           View Rates
                         </button>
                       </div>
                     </div>
                   ))}
-                  <BookingModal  open={isOpen} roomId={roomId}  onClose={() => setIsOpen(false)} />
+                  {/* <BookingModal  open={isOpen} roomId={roomId}  onClose={() => setIsOpen(false)} /> */}
                 </div>
                  
            <hr className="bg-amber-50 w-full h-0.5 mt-25" />

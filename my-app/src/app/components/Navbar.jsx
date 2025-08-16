@@ -51,7 +51,7 @@ export default function Navbar() {
           <a href="/">Home</a>
           <a href="/room&suite">Rooms & Suites</a>
           <a href="/dining">Dining</a>
-          <a href="#">Offers</a>
+          <a href="/offers">Offers</a>
           <a href="#">Events & Attractions</a>
         </div>
 
