@@ -139,9 +139,10 @@ export default function OffersSection() {
         {/* Title */}
         <div className="flex justify-between items-center mb-10">
           <h2 className="text-white text-4xl font-serif">OFFERS</h2>
-          <button className="border border-white px-6 py-2 text-sm font-semibold tracking-wide hover:bg-white hover:text-black transition">
-            VIEW ALL OFFERS
-          </button>
+        <button className="border border-white px-6 py-2 text-sm font-semibold tracking-wide text-white bg-transparent hover:bg-white hover:text-black transition-colors duration-300">
+  VIEW ALL OFFERS
+</button>
+
         </div>
 
         {/* Arrow Buttons */}
@@ -216,7 +217,7 @@ export default function OffersSection() {
           {/* Right Image */}
           <div className="flex-shrink-0 w-full md:w-72 h-48 relative">
             <Image
-              src="/images/bunkhouse.jpg"
+              src="/images/v-hotel-new1.jpg.jpg"
               alt="Bunkhouse Hotels"
               fill
               className="object-cover rounded"
