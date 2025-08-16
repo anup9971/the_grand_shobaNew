@@ -50,7 +50,7 @@ export default function Navbar() {
         <div className={styles.menuLinks}>
           <a href="/">Home</a>
           <a href="/room&suite">Rooms & Suites</a>
-          <a href="#">Dining</a>
+          <a href="/dining">Dining</a>
           <a href="#">Offers</a>
           <a href="#">Events & Attractions</a>
         </div>

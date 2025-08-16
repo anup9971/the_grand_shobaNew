@@ -22,6 +22,8 @@ import { rooms } from "@/roomData";
 
 import RelatedRooms from "@/app/components/relatedRooms/RelatedRooms";
 import Reviews from "@/app/components/relatedRooms/Reviews";
+import PromoSection from "@/app/components/relatedRooms/PromoSection";
+import BrandSection from "@/app/components/room&suite/BrandSection";
 
 
 
@@ -163,6 +165,17 @@ export default function Page({params}) {
    {/* ------------------------------------ Reviews resction ----------------------------------------------------- */}
     
     <Reviews/>
+
+
+    {/* -----------------------------------  Promo section ----------------------------------------------------    */}
+     
+     <PromoSection/>
+
+
+
+      {/* ----------------------------------------- Brand Section --------------------------------------------------- */}
+
+      <BrandSection/>
   </>
 
 
