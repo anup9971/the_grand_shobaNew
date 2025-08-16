@@ -43,6 +43,43 @@ const slides = [
     description:
       "Experience luxury dining with a mix of Asian flavors in a vibrant setting...",
   },
+
+  {
+    image: "/images/v-hotel-new7.jpg",
+    title: "AnnaMaya",
+    description:
+      "Indulge in a distinctive dining experience only at AnnaMaya Foodhall. With delicious and sustainably cooked meals that will uplift your spirits...",
+  },
+  {
+    image: "/images/v-hotel-new1.jpg",
+    title: "The Hong Kong Club",
+    description:
+      "Experience luxury dining with a mix of Asian flavors in a vibrant setting...",
+  },
+  {
+    image: "/images/v-hotel-new5.jpg",
+    title: "AnnaMaya",
+    description:
+      "Indulge in a distinctive dining experience only at AnnaMaya Foodhall. With delicious and sustainably cooked meals that will uplift your spirits...",
+  },
+  {
+    image: "/images/v-hotel-new3.jpg",
+    title: "The Hong Kong Club",
+    description:
+      "Experience luxury dining with a mix of Asian flavors in a vibrant setting...",
+  },
+  {
+    image: "/images/v-hotel-new4.jpg",
+    title: "AnnaMaya",
+    description:
+      "Indulge in a distinctive dining experience only at AnnaMaya Foodhall. With delicious and sustainably cooked meals that will uplift your spirits...",
+  },
+  {
+    image: "/images/v-hotel-new2.jpg",
+    title: "The Hong Kong Club",
+    description:
+      "Experience luxury dining with a mix of Asian flavors in a vibrant setting...",
+  },
 ];
 
 export default function DiningSlider() {
@@ -68,47 +105,37 @@ export default function DiningSlider() {
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
-              {/* Mobile layout: stacked, Desktop: side by side */}
-              <div className="relative flex flex-col md:flex-row md:justify-center items-center">
+              <div className="relative flex flex-col items-center">
                 {/* Prev Button */}
-                <button className="prev-btn absolute top-1/2 left-2 md:left-4 z-20 transform -translate-y-1/2 text-lg md:text-2xl border border-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-black/50 hover:bg-white hover:text-black">
+                <button className="prev-btn absolute top-1/2 left-2 z-20 transform -translate-y-1/2 text-lg sm:text-2xl border border-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center bg-black/50 hover:bg-white hover:text-black">
                   ←
                 </button>
 
                 {/* Image */}
-                <div className="w-full md:w-3/5">
+                <div className="w-full relative">
                   <Image
                     src={slide.image}
                     alt={slide.title}
                     width={1920}
                     height={900}
-                    className="w-full h-[400px] sm:h-[500px] md:h-[600px] object-cover rounded-none md:rounded-lg"
+                    className="w-full h-[300px] sm:h-[400px] md:h-[450px] object-cover"
                   />
-                </div>
-
-                {/* Card */}
-                <div
-                  className="
-                    bg-white text-black p-6 rounded-lg shadow-lg
-                    w-[85%] sm:w-[70%] md:w-[38%]
-                    min-h-[250px] sm:min-h-[300px] md:min-h-[320px]
-                    md:relative md:bottom-auto md:right-auto
-                    -mt-[30%] md:mt-0 md:absolute md:bottom-6 md:right-6 z-10
-                  "
-                >
-                  <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-4">
-                    {slide.title}
-                  </h2>
-                  <p className="text-xs sm:text-sm leading-relaxed mb-4 sm:mb-6">
-                    {slide.description}
-                  </p>
-                  <button className="text-xs sm:text-sm font-bold hover:underline">
-                    DETAILS + RESERVATIONS →
-                  </button>
+                  {/* Card overlapping image */}
+                  <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-[30%] bg-white text-black p-6 rounded-lg shadow-lg w-[85%] sm:w-[60%] md:w-[40%] min-h-[200px] sm:min-h-[250px] md:min-h-[300px] z-10">
+                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">
+                      {slide.title}
+                    </h2>
+                    <p className="text-xs sm:text-sm leading-relaxed mb-4">
+                      {slide.description}
+                    </p>
+                    <button className="text-xs sm:text-sm font-bold hover:underline">
+                      DETAILS + RESERVATIONS →
+                    </button>
+                  </div>
                 </div>
 
                 {/* Next Button */}
-                <button className="next-btn absolute top-1/2 right-2 md:right-4 z-20 transform -translate-y-1/2 text-lg md:text-2xl border border-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-black/50 hover:bg-white hover:text-black">
+                <button className="next-btn absolute top-1/2 right-2 z-20 transform -translate-y-1/2 text-lg sm:text-2xl border border-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center bg-black/50 hover:bg-white hover:text-black">
                   →
                 </button>
               </div>

@@ -323,7 +323,7 @@ export default function OffersSection() {
       alt="Brush Background"
       className="absolute left-0 bottom-0 w-1/2"
     />
-    <h1 className="text-[6rem] font-serif text-center z-10 relative">SHOBA</h1>
+    <h1 className="text-[6rem] font-serif text-center z-10 relative">THE GRAND SHOBA</h1>
   </div>
 </footer>
 
