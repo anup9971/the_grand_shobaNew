@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
+import Link from "next/link";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,7 +30,11 @@ export default function Navbar() {
         </div>
 
         {/* Center Logo */}
-        <div className={styles.navCenter}>S H <i>O</i> B A</div>
+          <Link href="/">
+        <div className={styles.navCenter}>
+          S H <i>O</i> B A
+        </div>
+          </Link>
 
         {/* Right Section */}
         <div className={styles.navRight}>
@@ -43,7 +48,7 @@ export default function Navbar() {
         <span className={styles.closeBtn} onClick={() => setMenuOpen(false)}>✕</span>
 
         <div className={styles.menuLinks}>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
           <a href="/room&suite">Rooms & Suites</a>
           <a href="#">Dining</a>
           <a href="#">Offers</a>
