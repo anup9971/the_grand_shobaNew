@@ -3,35 +3,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 0; /* remove extra top/bottom padding */
 }
 
 .cityCard {
   background: white;
-  padding: 0;
+  padding: 0; /* remove padding */
   border-radius: 8px;
   max-width: 900px;
   width: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   overflow: hidden;
+  margin: 0; /* remove any extra margin */
 }
 
 .videoWrapper {
   width: 100%;
   overflow: hidden;
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
 }
 
 .video {
+  position: absolute;
+  top: -35%; /* move video upward to hide top white space */
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 160%; /* increase height to fully cover top */
+  object-fit: cover;
+
+  /* Increase width 20% (left & right) and move 20% down relative to height */
+  transform: scaleX(1.2) translateY(20%);
+  transform-origin: center top; /* top stays fixed, bottom moves */
 }
 
 .cityName {
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 20px;
+  margin: 10px 0 20px 0; /* spacing below video */
 }
 
 .brushStroke {
