@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function AboutSection() {
+export default function DiningAboutSection() {
   return (
     <>
          <div className="bg-[#f8f8f8]  md:flex hidden object-contain" style={{backgroundImage:"url(/room&suite/roombg.png)", objectFit:"contain"}}>

@@ -7,13 +7,13 @@ import "slick-carousel/slick/slick-theme.css";
 import { FiPhone, FiMapPin, FiChevronUp, FiChevronDown } from "react-icons/fi";
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import Link from 'next/link';
-export default function DiningSlider() {
+export default function DiningSlider({name, img}) {
 const [openHours, setOpenHours] = useState(false);
   const [openMenus, setOpenMenus] = useState(false);
 
-    let[images, setImages]=useState(
-        ["/room&suite/room1.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"]
-    )
+    // let[images, setImages]=useState(
+    //     ["/room&suite/room1.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"]
+    // )
     const PrevArrow = ({ onClick }) => (
   <button
     onClick={onClick}
@@ -46,10 +46,10 @@ const NextArrow = ({ onClick }) => (
   };
   return (
     <>
-        <div className="grid grid-cols-1 pt-12  bg-black gap-6">
+        <div className="grid grid-cols-1 pt-8  bg-black gap-6">
                 <div className=' p-2 md:p-8'>
                     <Slider {...sliderSettings}>
-                          {images.map((img, index) => (
+                          {img.map((img, index) => (
                             <div key={`-${index}`} className="relative w-full h-56 md:h-90 lg:h-110">
                               <Image
                                 src={img}
@@ -62,7 +62,7 @@ const NextArrow = ({ onClick }) => (
                         </Slider>
 
                         <div className='bg-white mt-[-7px] rounded-b-lg md:p-12 p-3'>
-                            <h2 className='text-4xl text-black pb-5 font-bold font-serif'>AnnaMaya</h2>
+                            <h2 className='text-4xl text-black pb-5 font-bold font-serif'>{name}</h2>
                             <p className='text-gray-700 font-light'>Indulge in a distinctive dining experience only at AnnaMaya Foodhall. With
                                  delicious and sustainably cooked meals that will uplift your spirits, we will take the whole experience to another 
                                  level. This is a modern food hall that is inspired by the colours and flavours of the world where food is served 
