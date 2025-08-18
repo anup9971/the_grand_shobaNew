@@ -18,14 +18,14 @@ export default function RoomsSuites() {
         {/* Left Content (1 column) */}
         <div>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            At Andaz Delhi, the rooms are thoughtfully designed and decorated
+            At the grand shoba Delhi, the rooms are thoughtfully designed and decorated
             with locally inspired details, and each contains one of 401 unique
             artworks inspired by Delhi. Sophisticated details such as wooden
             floors create a residential comfort, while modern bath amenities
             and artistic integration invite guests to relax in style. View
             rooms offer a stunning view of the runway at Indira Gandhi
             International Airport, an exciting vantage point to watch aircraft
-            taking off or touching down. If you are interested in our Hyatt
+            taking off or touching down. If you are interested in our the grand shoba
             Delhi Residences, which offer contemporary fully serviced
             apartments, please visit our Residences website to learn more.
           </p>
@@ -85,14 +85,14 @@ export default function RoomsSuites() {
      
         <div>
           <p className="text-gray-700 text-justify mb-6 leading-relaxed">
-            At Andaz Delhi, the rooms are thoughtfully designed and decorated
+            At the grand shoba Delhi, the rooms are thoughtfully designed and decorated
             with locally inspired details, and each contains one of 401 unique
             artworks inspired by Delhi. Sophisticated details such as wooden
             floors create a residential comfort, while modern bath amenities
             and artistic integration invite guests to relax in style. View
             rooms offer a stunning view of the runway at Indira Gandhi
             International Airport, an exciting vantage point to watch aircraft
-            taking off or touching down. If you are interested in our Hyatt
+            taking off or touching down. If you are interested in our the grand shoba
             Delhi Residences, which offer contemporary fully serviced
             apartments, please visit our Residences website to learn more.
           </p>

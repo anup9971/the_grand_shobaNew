@@ -11,7 +11,7 @@ export default function HotelInfoSection() {
         <div className="overflow-hidden rounded-xl shadow-lg">
           <img
             src="/images/hotel-img.jpg" // left side image path
-            alt="Hotel Andaz"
+            alt="Hotel the grand shoba"
             className="w-full h-full object-cover"
           />
         </div>
@@ -25,7 +25,7 @@ export default function HotelInfoSection() {
             5-Star Luxury Lifestyle Hotel in Aerocity, New Delhi
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Located just a 7-minute drive from IGI Airport, Andaz Delhi, by Hyatt
+            Located just a 7-minute drive from IGI Airport, the grand shoba Delhi, by the grand shoba
             offers seamless connectivity with direct access to key hubs across
             Gurgaon, Dwarka, and Yashobhoomi via the newly opened Dwarka
             Expressway tunnel—reducing travel time by approximately 15 minutes.

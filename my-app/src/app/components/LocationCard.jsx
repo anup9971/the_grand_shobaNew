@@ -18,10 +18,10 @@ export default function LocationCard() {
         <div className="bg-white rounded-none md:rounded-l-xl p-6 shadow-lg w-full md:w-1/2 flex flex-col justify-center">
           <h2 className="text-2xl font-bold mb-2">The Grand Shoba</h2>
           <p className="flex items-center text-gray-700 mb-1">
-            📍 Asset No. 1, Aerocity, New Delhi - 110037, Delhi, India
+            📍 1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
           </p>
           <p className="flex items-center text-gray-700 mb-4">
-            📞 +91 11 49031234
+            📞 +91  9953992143
           </p>
 
           <div className="flex flex-col gap-3">

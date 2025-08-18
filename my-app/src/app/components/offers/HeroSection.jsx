@@ -34,7 +34,7 @@ export default function HeroSection() {
             </div>  
             <div className='p-8' >
                <p className='text-2xl md:text-4xl text-gray-900'>18% Off on the 18th of Every Month</p>
-               <p className='text-gray-800 font-light pt-4 text-justify'>Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of Hyatt members to save 18% on stays at participating Hyatt hotels across India and Nepal. This limited-time offer is available for one day only: simply book on the 18th using offer code SPECIAL18 to secure this rate on all room types. With
+               <p className='text-gray-800 font-light pt-4 text-justify'>Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of the grand shoba members to save 18% on stays at participating the grand shoba hotels across India and Nepal. This limited-time offer is available for one day only: simply book on the 18th using offer code SPECIAL18 to secure this rate on all room types. With
                 {
                 readMore && (
                   " stays completed within 30 days of booking, this monthly offer is crafted exclusively for you—seize the moment to elevate your next stay."
@@ -46,7 +46,7 @@ export default function HeroSection() {
               <button  onClick={()=>setReadMore(!readMore)}>
                    <span className='flex text-black pt-4 font-light'>Read More{readMore? <FiChevronUp className='text-2xl ' />:<FiChevronDown className='text-2xl '/>} </span>
               </button>
-                 <Link href="/offers/65095a521dd1525e9c420d4ce5ab9d70" >
+                 <Link href="/offers/1" >
                 <div className=' text-black p-2 hover:text-white hover:bg-black  mt-8 border w-40'> SEE DETAILS</div>
               </Link>
             </div>        
@@ -62,7 +62,7 @@ export default function HeroSection() {
             </div>  
             <div className='p-8' >
                <p className='text-2xl md:text-4xl text-gray-900'>Executive Offer</p>
-               <p className='text-gray-800 font-light pt-4 text-justify'>Make your next stay truly memorable with exclusive privileges. From seamless arrivals to handpicked comforts, enjoy an elevated experience at Andaz Delhi—perfectly crafted for both business and relaxation.on the 18th using offer code SPECIAL18 to secure this rate on all room types. Withon the 18th using offer code SPECIAL18 to secure this rate on all room types. With
+               <p className='text-gray-800 font-light pt-4 text-justify'>Make your next stay truly memorable with exclusive privileges. From seamless arrivals to handpicked comforts, enjoy an elevated experience at the grand shoba Delhi—perfectly crafted for both business and relaxation.on the 18th using offer code SPECIAL18 to secure this rate on all room types. Withon the 18th using offer code SPECIAL18 to secure this rate on all room types. With
                </p>
                {
                  secondreadMore && (
@@ -81,7 +81,7 @@ export default function HeroSection() {
                    <span className='flex pt-4 font-light text-black'>Read More{secondreadMore? <FiChevronUp className='text-2xl ' />:<FiChevronDown className='text-2xl '/>} </span>
               </button>
 
-              <Link href="/offers/75095a521dd1525e9c420d4ce5ab9d77" >
+              <Link href="/offers/2" >
                 <div className='p-2  text-black mt-8 border hover:text-white hover:bg-black w-40'> SEE DETAILS</div>
               </Link>
                

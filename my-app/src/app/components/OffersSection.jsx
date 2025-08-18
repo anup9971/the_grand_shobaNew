@@ -8,13 +8,13 @@ const offers = [
   {
     title: "18% OFF ON THE 18TH OF EVERY MONTH",
     description:
-      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of Hyatt members to save 18% on stays at participating Hyatt hotels across India and Nepal...",
+      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of the grand shobamembers to save 18% on stays at participating the grand shobahotels across India and Nepal...",
     img: "/images/v-hotel-new1.jpg",
   },
   {
     title: "MEMBER RATE",
     description:
-      "There’s more to earn—and enjoy—when you book smart, only on hyatt.com. Members can save more. Book a standard or premium room at participating hotels...",
+      "There’s more to earn—and enjoy—when you book smart, only on the grand shoba.com. Members can save more. Book a standard or premium room at participating hotels...",
     img: "/images/v-hotel-new2.jpg",
   },
   {
@@ -26,13 +26,13 @@ const offers = [
     {
     title: "18% OFF ON THE 18TH OF EVERY MONTH",
     description:
-      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of Hyatt members to save 18% on stays at participating Hyatt hotels across India and Nepal...",
+      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of the grand shobamembers to save 18% on stays at participating the grand shobahotels across India and Nepal...",
     img: "/images/v-hotel-new1.jpg",
   },
   {
     title: "MEMBER RATE",
     description:
-      "There’s more to earn—and enjoy—when you book smart, only on hyatt.com. Members can save more. Book a standard or premium room at participating hotels...",
+      "There’s more to earn—and enjoy—when you book smart, only on the grand shoba.com. Members can save more. Book a standard or premium room at participating hotels...",
     img: "/images/v-hotel-new2.jpg",
   },
   {
@@ -44,13 +44,13 @@ const offers = [
     {
     title: "18% OFF ON THE 18TH OF EVERY MONTH",
     description:
-      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of Hyatt members to save 18% on stays at participating Hyatt hotels across India and Nepal...",
+      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of the grand shobamembers to save 18% on stays at participating the grand shobahotels across India and Nepal...",
     img: "/images/v-hotel-new1.jpg",
   },
   {
     title: "MEMBER RATE",
     description:
-      "There’s more to earn—and enjoy—when you book smart, only on hyatt.com. Members can save more. Book a standard or premium room at participating hotels...",
+      "There’s more to earn—and enjoy—when you book smart, only on the grand shoba.com. Members can save more. Book a standard or premium room at participating hotels...",
     img: "/images/v-hotel-new2.jpg",
   },
   {
@@ -62,13 +62,13 @@ const offers = [
     {
     title: "18% OFF ON THE 18TH OF EVERY MONTH",
     description:
-      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of Hyatt members to save 18% on stays at participating Hyatt hotels across India and Nepal...",
+      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of the grand shobamembers to save 18% on stays at participating the grand shobahotels across India and Nepal...",
     img: "/images/v-hotel-new1.jpg",
   },
   {
     title: "MEMBER RATE",
     description:
-      "There’s more to earn—and enjoy—when you book smart, only on hyatt.com. Members can save more. Book a standard or premium room at participating hotels...",
+      "There’s more to earn—and enjoy—when you book smart, only on the grand shoba.com. Members can save more. Book a standard or premium room at participating hotels...",
     img: "/images/v-hotel-new2.jpg",
   },
   {
@@ -80,13 +80,13 @@ const offers = [
     {
     title: "18% OFF ON THE 18TH OF EVERY MONTH",
     description:
-      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of Hyatt members to save 18% on stays at participating Hyatt hotels across India and Nepal...",
+      "Mark your calendar—every 18th is Members’ Day, an exclusive opportunity for World of the grand shobamembers to save 18% on stays at participating the grand shobahotels across India and Nepal...",
     img: "/images/v-hotel-new1.jpg",
   },
   {
     title: "MEMBER RATE",
     description:
-      "There’s more to earn—and enjoy—when you book smart, only on hyatt.com. Members can save more. Book a standard or premium room at participating hotels...",
+      "There’s more to earn—and enjoy—when you book smart, only on the grand shoba.com. Members can save more. Book a standard or premium room at participating hotels...",
     img: "/images/v-hotel-new2.jpg",
   },
   {
@@ -201,11 +201,11 @@ export default function OffersSection() {
           {/* Left Text */}
           <div className="flex-1 text-white">
             <h3 className="text-lg font-bold mb-3 uppercase">
-              BUNKHOUSE HOTELS HAVE JOINED WORLD OF HYATT
+              BUNKHOUSE HOTELS HAVE JOINED WORLD OF the grand shoba
             </h3>
             <p className="text-sm mb-4">
               Be more rewarded at participating Bunkhouse Hotels with World of
-              Hyatt benefits. Earn and redeem points and enjoy other rewards as
+              the grand shobabenefits. Earn and redeem points and enjoy other rewards as
               you experience unique culture, design and personality at inviting
               escapes in Texas and Mexico.
             </p>
@@ -236,18 +236,18 @@ export default function OffersSection() {
       <div className="relative w-full h-48">
         <Image
           src="/images/v-hotel-new1.jpg"
-          alt="Andaz Unveiled | Weddings"
+          alt="the grand shoba Unveiled | Weddings"
           fill
           className="object-cover"
         />
       </div>
       <div className="p-5">
         <h3 className="font-serif text-lg mb-2">
-          Andaz Unveiled | Weddings
+          the grand shobaz Unveiled | Weddings
         </h3>
         <p className="text-sm text-gray-700 mb-4">
           Our attentive and personalized services can make your dream
-          wedding come true at Andaz Delhi.
+          wedding come true at the grand shoba Delhi.
         </p>
         <button className="text-sm font-semibold flex items-center gap-1 text-orange-600">
           SEE DETAILS <span>⟶</span>
@@ -260,18 +260,18 @@ export default function OffersSection() {
       <div className="relative w-full h-48">
         <Image
           src="/images/v-hotel-new1.jpg"
-          alt="Andaz Inspiration | Meetings"
+          alt="the grand shoba Inspiration | Meetings"
           fill
           className="object-cover"
         />
       </div>
       <div className="p-5">
         <h3 className="font-serif text-lg mb-2">
-          Andaz Inspiration | Meetings
+          the grand shoba Inspiration | Meetings
         </h3>
         <p className="text-sm text-gray-700 mb-4">
           With multiple meeting venues, you’ll experience personalized
-          services and professional facilities at Andaz Delhi.
+          services and professional facilities at the grand shoba Delhi.
         </p>
         <button className="text-sm font-semibold flex items-center gap-1 text-orange-600">
           SEE DETAILS <span>⟶</span>
@@ -293,9 +293,9 @@ export default function OffersSection() {
     <div>
       <h3 className="font-serif text-lg mb-4">The Grand Shoba</h3>
       <p className="text-sm">
-        Asset No. 1, Aerocity, New Delhi - 110037, Delhi, India
+        1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
       </p>
-      <p className="text-sm mt-2">Tel: +91 11 4903 1234</p>
+      <p className="text-sm mt-2">Tel: 91 9953992143</p>
     </div>
 
     {/* Center Section */}
@@ -318,7 +318,7 @@ export default function OffersSection() {
     </div>
   </div>
 
-  {/* Big Andaz Logo with Brush */}
+  {/* Big the grand shoba Logo with Brush */}
   <div className="relative mt-8">
     <img
       src="/images/footer-brush.png"
@@ -331,7 +331,7 @@ export default function OffersSection() {
 
 
 
-{/* World of Hyatt Section */}
+{/* World of the grand shobaSection */}
 <BrandSection/>
     </section>
 

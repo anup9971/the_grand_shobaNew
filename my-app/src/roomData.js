@@ -4,7 +4,7 @@ export const rooms = [
     type: "King Bed",
     view: "Airport View",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring a king Hyatt Grand Bed, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring a king the grand shoba Grand Bed, open-plan bathroom, desk, and daybed.",
     image:["/room&suite/room1.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
   {
@@ -12,7 +12,7 @@ export const rooms = [
     type: "Twin Beds",
     view: "Suites",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring two twin Hyatt Grand Beds, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring two twin the grand shoba Grand Beds, open-plan bathroom, desk, and daybed.",
     image:["/room&suite/room2.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
     {
@@ -20,7 +20,7 @@ export const rooms = [
     type: "King Bed",
     view: "View Varies",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring a king Hyatt Grand Bed, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring a king the grand shoba Grand Bed, open-plan bathroom, desk, and daybed.",
     image:["/room&suite/room3.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
   {
@@ -28,7 +28,7 @@ export const rooms = [
     type: "Twin Beds",
     view: "City View",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring two twin Hyatt Grand Beds, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring two twin the grand shoba Grand Beds, open-plan bathroom, desk, and daybed.",
     image:["/room&suite/room4.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
     {
@@ -36,7 +36,7 @@ export const rooms = [
     type: "King Bed",
     view: "Airport View",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring a king Hyatt Grand Bed, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring a king the grand shoba Grand Bed, open-plan bathroom, desk, and daybed.",
     image:["/room&suite/room5.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
   {
@@ -44,7 +44,7 @@ export const rooms = [
     type: "Twin Beds",
     view: "View Varies",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring two twin Hyatt Grand Beds, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring two twin the grand shoba Grand Beds, open-plan bathroom, desk, and daybed.",
    image:["/room&suite/room3.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
     {
@@ -52,7 +52,7 @@ export const rooms = [
     type: "King Bed",
     view: "City View",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring a king Hyatt Grand Bed, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring a king the grand shoba Grand Bed, open-plan bathroom, desk, and daybed.",
    image:["/room&suite/room2.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
   {
@@ -60,7 +60,7 @@ export const rooms = [
     type: "Twin Beds",
     view: "Suites",
     size: "36 - 41 sq m",
-    description: "Spacious room featuring two twin Hyatt Grand Beds, open-plan bathroom, desk, and daybed.",
+    description: "Spacious room featuring two twin the grand shoba Grand Beds, open-plan bathroom, desk, and daybed.",
     image:["/room&suite/room1.jpg","/room&suite/room3.jpg","/room&suite/room4.jpg","/room&suite/room2.jpg"],
   },
   

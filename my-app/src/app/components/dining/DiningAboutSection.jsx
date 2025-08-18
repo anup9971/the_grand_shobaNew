@@ -15,11 +15,11 @@ export default function DiningAboutSection() {
             {/* Left Content (1 column) */}
             <div>
               <p className="text-gray-700 mb-6 leading-relaxed">
-               At Andaz Delhi, we take an innovative approach to restaurants and bars that place an emphasis on consciously sourced ingredients and local artisans’ produce. Indulge in delicious modern and local cuisine at AnnaMaya Foodhall, enjoy an evening drink at the Juniper Bar, India’s first gin bar, and celebrate the abundance of nature with healthy flatbreads alongside creative cocktails and coffee at Soul Pantry.
+               At the grand shoba Delhi, we take an innovative approach to restaurants and bars that place an emphasis on consciously sourced ingredients and local artisans’ produce. Indulge in delicious modern and local cuisine at AnnaMaya Foodhall, enjoy an evening drink at the Juniper Bar, India’s first gin bar, and celebrate the abundance of nature with healthy flatbreads alongside creative cocktails and coffee at Soul Pantry.
               </p>
     
               {/* Check-in / Checkout */}
-              <div className="grid grid-cols-2 gap-6 mt-6">
+              {/* <div className="grid grid-cols-2 gap-6 mt-6">
                 <div>
                   <p className="font-semibold text-gray-700">Check-in</p>
                   <p className="text-2xl text-gray-500 font-serif">02:00 PM</p>
@@ -28,7 +28,7 @@ export default function DiningAboutSection() {
                   <p className="font-semibold text-gray-700">Checkout</p>
                   <p className="text-2xl text-gray-500 font-serif">12:00 PM</p>
                 </div>
-              </div>
+              </div> */}
             </div>
     
             {/* Right Image (spans 2 columns) */}
@@ -73,11 +73,11 @@ export default function DiningAboutSection() {
          
             <div>
               <p className="text-gray-700 text-justify mb-6 leading-relaxed">
-               At Andaz Delhi, we take an innovative approach to restaurants and bars that place an emphasis on consciously sourced ingredients and local artisans’ produce. Indulge in delicious modern and local cuisine at AnnaMaya Foodhall, enjoy an evening drink at the Juniper Bar, India’s first gin bar, and celebrate the abundance of nature with healthy flatbreads alongside creative cocktails and coffee at Soul Pantry.
+               At the grand shoba Delhi, we take an innovative approach to restaurants and bars that place an emphasis on consciously sourced ingredients and local artisans’ produce. Indulge in delicious modern and local cuisine at AnnaMaya Foodhall, enjoy an evening drink at the Juniper Bar, India’s first gin bar, and celebrate the abundance of nature with healthy flatbreads alongside creative cocktails and coffee at Soul Pantry.
               </p>
     
               {/* Check-in / Checkout */}
-              <div className="grid grid-cols-2 gap-6 mt-6">
+              {/* <div className="grid grid-cols-2 gap-6 mt-6">
                 <div>
                   <p className="font-semibold text-gray-700">Check-in</p>
                   <p className="text-2xl text-gray-500 font-serif">02:00 PM</p>
@@ -86,7 +86,7 @@ export default function DiningAboutSection() {
                   <p className="font-semibold text-gray-700">Checkout</p>
                   <p className="text-2xl text-gray-500 font-serif">12:00 PM</p>
                 </div>
-              </div>
+              </div> */}
             </div>
     
             

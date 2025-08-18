@@ -16,7 +16,7 @@ export default function page() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Asset No. 1, Aerocity, New Delhi - 110037, Delhi, India
+                 1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
                 </a>
               </div>
               <span className='md:flex hidden'> |</span>

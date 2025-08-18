@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       {/* Top White Bar */}
       <div className={styles.topBar}>
-        <div className={styles.topBarLeft}>WORLD OF HYATT®</div>
+        <div className={styles.topBarLeft}>WORLD OF the grand shoba®</div>
         <div className={styles.topBarRight}>
           🌐 <span>Sign In or Join ▼</span>
         </div>
@@ -65,14 +65,14 @@ export default function Navbar() {
           <a href="#">Gallery</a>
           <a href="#">Reviews</a>
           <a href="#">Hotel Policies</a>
-          <a href="#">About Andaz</a>
+          <a href="#">About the grand shoba</a>
         </div>
 
         {/* Hotel Info */}
         <div className={styles.hotelInfo}>
           <strong>THE GRAND SHOBA</strong>
-          <p>Asset No. 1, Aerocity, New Delhi - 110037, Delhi, India</p>
-          <p>📞 Tel: +91 11 4903 1234</p>
+          <p>1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037</p>
+          <p>📞 Tel: 91 9953992143</p>
           <p>⭐ 4.5 (1411 Reviews)</p>
         </div>
       </div>

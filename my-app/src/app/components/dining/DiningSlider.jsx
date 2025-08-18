@@ -120,12 +120,12 @@ const NextArrow = ({ onClick }) => (
                               <h3 className="font-semibold text-gray-800 text-lg">Contact</h3>
                               <div className="flex items-center gap-2 text-gray-700">
                                 <FiPhone className="text-orange-500 text-xl" />
-                                <span>+91 8588804222</span>
+                                <span>+91 9953992143</span>
                               </div>
                               <div className="flex items-start gap-2 text-gray-700">
                                 <FiMapPin className="text-orange-500 text-xl mt-1" />
                                 <span>
-                                  Asset No. 1, Aerocity, New Delhi - 110037, Delhi, India
+                                  1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
                                 </span>
                               </div>
                             </div>

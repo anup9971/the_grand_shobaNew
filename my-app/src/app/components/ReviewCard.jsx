@@ -50,7 +50,7 @@ export default function ReviewCard() {
               "A very comforting stay. Good location, rooms with windows facing
               the airport side offer an amazing view of the night operations of
               the airport. Spacious rooms surely give you satisfaction for value
-              for money. Class matters and Andaz gives it to you."
+              for money. Class matters and the grand shoba gives it to you."
             </p>
             <p className="mt-4 font-semibold">— anupamkapoor2000</p>
           </div>

@@ -10,8 +10,8 @@ const hotelData = [
     title: "Spa",
     image: "/images/v-hotel-new7.jpg",
     description:
-      "Discover a calming sanctuary amidst the hustle and bustle of Delhi. Andaz Spa offers an innovative apothecary approach guided by your chakra energies and desires.",
-    details: ["Hours: 09:00am - 09:00pm.", "For more details, contact +91 11 4903 1347"],
+      "Discover a calming sanctuary amidst the hustle and bustle of Delhi. the grand shoba Spa offers an innovative apothecary approach guided by your chakra energies and desires.",
+    details: ["Hours: 09:00am - 09:00pm.", "For more details, contact +91 9953992143"],
   },
   {
     title: "401 Tours",

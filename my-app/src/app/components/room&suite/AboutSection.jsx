@@ -14,9 +14,9 @@ export default function AboutSection() {
           {/* Address */}
           <div>
             <p>
-              Asset No. 1, Aerocity, New Delhi - 110037, Delhi, India
+             1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
             </p>
-            <p className="mt-2">Tel: +91 11 4903 1234</p>
+            <p className="mt-2">Tel: 91 9953992143</p>
           </div>
 
           {/* Links */}

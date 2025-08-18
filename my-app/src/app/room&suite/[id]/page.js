@@ -125,7 +125,7 @@ export default function Page({params}) {
             </a>
           </div>
           <p className="text-sm mt-2 text-gray-700">
-            📍 Asset No. 1, Aerocity New Delhi, Delhi, 110037 India
+            📍 1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
           </p>
           <p className="text-xs mt-2 text-gray-500">
            {room.description}
@@ -137,7 +137,7 @@ export default function Page({params}) {
       <div className="mt-6">
         <h2 className="text-lg font-semibold">Description</h2>
         <p className="text-gray-700 mt-2">
-          Located just a 7-minute drive from IGI Airport, Andaz Delhi, by Hyatt
+          Located just a 7-minute drive from IGI Airport, the grand shoba Delhi, by the grand shoba
           offers seamless connectivity with direct access to key hubs across
           Gurgaon, Dwarka, and Yashobhoomi via the newly opened Dwarka Expressway
           tunnel...
