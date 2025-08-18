@@ -1,37 +1,58 @@
 .citySection {
-  background-color: #1a1a1a; 
+  /* background-color: #1a1a1a;  */
+  background-image: url('/images/roombg.png'); /* replace with your image path */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 0; /* remove extra top/bottom padding */
+   margin-bottom: 10%;
 }
 
 .cityCard {
   background: white;
-  padding: 0;
+  padding: 0; /* remove padding */
   border-radius: 8px;
   max-width: 900px;
   width: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   overflow: hidden;
+  margin: 0; /* remove any extra margin */
 }
 
 .videoWrapper {
   width: 100%;
   overflow: hidden;
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
 }
 
 .video {
-  width: 100%;
-  height: auto;
-  display: block;
+  position: absolute;
+  top: -35%; /* move video upward to hide top white space */
+  left: 0;
+  height: 160%; /* increase height to fully cover top */
+  object-fit: cover;
+
+
+
+  height: 160%;
+  object-fit: cover;
+
+  transform: translateY(20%); /* keep vertical adjustment only */
+  transform-origin: center top;
+
+
+
+
+
 }
 
 .cityName {
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 20px;
+  margin: 10px 0 20px 0; /* spacing below video */
 }
 
 .brushStroke {
