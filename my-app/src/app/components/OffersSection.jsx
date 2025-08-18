@@ -134,7 +134,7 @@ export default function OffersSection() {
   };
 
   return (
-    <section className="bg-black py-16">
+    <section className="bg-black text-black py-16">
       <div className="max-w-7xl mx-auto px-4 relative">
         {/* Title */}
         <div className="flex justify-between items-center mb-10">
@@ -217,7 +217,7 @@ export default function OffersSection() {
           {/* Right Image */}
           <div className="flex-shrink-0 w-full md:w-72 h-48 relative">
             <Image
-              src="/images/v-hotel-new1.jpg.jpg"
+              src="/images/v-hotel-new1.jpg"
               alt="Bunkhouse Hotels"
               fill
               className="object-cover rounded"

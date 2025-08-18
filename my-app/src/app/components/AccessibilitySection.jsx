@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AccessibilitySection() {
   return (
-    <section className="bg-black py-16 flex justify-center">
+    <section className="bg-black text-black py-16 flex justify-center">
       <div className="relative bg-[url('/images/paper-texture.png')] bg-cover bg-center rounded-lg max-w-4xl w-full shadow-lg overflow-hidden">
         
         {/* White overlay to make text readable */}

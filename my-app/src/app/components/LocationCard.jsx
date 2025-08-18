@@ -13,7 +13,7 @@ export default function LocationCard() {
       ></div>
 
       {/* Main Content */}
-      <div className="relative z-10 flex flex-col md:flex-row items-stretch p-0 h-[300px] w-[95%] md:w-[80%]">
+      <div className="relative z-10 text-black mt-[-300px] md:mt-[0] flex flex-col md:flex-row items-stretch p-0 h-[300px] w-[95%] md:w-[80%]">
         {/* Left Content */}
         <div className="bg-white rounded-none md:rounded-l-xl p-6 shadow-lg w-full md:w-1/2 flex flex-col justify-center">
           <h2 className="text-2xl font-bold mb-2">The Grand Shoba</h2>

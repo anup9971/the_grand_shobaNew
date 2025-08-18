@@ -21,7 +21,7 @@ export default function HotelInfoSection() {
           {/* Decorative Brush */}
           <div className="absolute -top-4 -right-4 w-12 h-12 bg-[url('/images/brush-red.png')] bg-cover"></div>
 
-          <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-black font-serif mb-4">
             5-Star Luxury Lifestyle Hotel in Aerocity, New Delhi
           </h2>
           <p className="text-gray-700 leading-relaxed">

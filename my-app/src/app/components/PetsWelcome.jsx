@@ -2,14 +2,7 @@ import Image from "next/image";
 
 export default function PetsWelcome() {
   return (
-    <section className="py-16 bg-white">
-
-
-
-
-
-
-
+    <section className="py-16 text-black bg-white">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
         
         {/* Left Content */}

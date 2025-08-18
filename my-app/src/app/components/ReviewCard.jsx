@@ -4,7 +4,7 @@ import { FaStar, FaStarHalfAlt, FaTripadvisor } from "react-icons/fa";
 export default function ReviewCard() {
   return (
     <section
-      className="relative bg-black bg-cover bg-no-repeat py-20"
+      className="relative text-black bg-black bg-cover bg-no-repeat py-20"
       style={{
         backgroundImage: "url('/your-bg-image.jpg')", // replace with your image
         backgroundPosition: "top",

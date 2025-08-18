@@ -41,7 +41,7 @@ export default function RoomsAndSuites() {
   ></div>
 
   {/* Content wrapper */}
-  <div className="relative z-10 max-w-5xl mx-auto">
+  <div className="relative z-10  max-w-5xl mx-auto text-black">
     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-4">
       Rooms & Suites
     </h2>

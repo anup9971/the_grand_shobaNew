@@ -16,7 +16,7 @@ const CitySection = () => {
             playsInline
           />
         </div>
-        <h2 className={styles.cityName}>Delhi</h2>
+        <h2 className={`${styles.cityName} text-black font-serif`} >Delhi</h2>
         <img
           src="/images/v-hotel-new1.jpg"
           alt="underline"

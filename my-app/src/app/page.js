@@ -15,7 +15,7 @@ import Bgtest from './components/Bgtest';
 export default function page() {
   return (
     <>
-    <CitySection/>
+       <CitySection/>
         <HotelIntro/>
         <RoomsAndSuites/>
         <HotelSlider/>
