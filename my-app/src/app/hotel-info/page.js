@@ -12,7 +12,7 @@ export default function page() {
               <div className="flex pb-5 md:pb-0 gap-2 hover:underline">
                 <MdLocationPin className="md:text-2xl text-4xl" />
                 <a
-                  href="https://www.google.com/maps/place/Andaz+Delhi,+by+Hyatt/@28.5543682,77.1187073,17z/data=!4m9!3m8!1s0x390d1c68e56ccff3:0x377c64cf8683b859!5m2!4m1!1i2!8m2!3d28.5543682!4d77.1212822!16s%2Fg%2F11bxfwnfm1?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/place/V+Hotel+The+Grand+Shoba+(Delhi+Airport)/@28.5513409,77.1309002,17z/data=!4m9!3m8!1s0x390d1d86b229e7bf:0x5a55a0c4e18ced29!5m2!4m1!1i2!8m2!3d28.5513362!4d77.1334751!16s%2Fg%2F11cr_xfxt4?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -29,7 +29,7 @@ export default function page() {
 
         <div className='pt-14 '>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.465795358645!2d77.11870731508082!3d28.55436818244337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1c68e56ccff3%3A0x377c64cf8683b859!2sAndaz%20Delhi%2C%20by%20Hyatt!5e0!3m2!1sen!2sin!4v1691758123456!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=v hotel the grand shoba , 1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               height="400"
               style={{ border: 0 ,width:"100%"}}
               allowFullScreen=""

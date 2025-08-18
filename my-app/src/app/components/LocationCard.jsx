@@ -38,7 +38,7 @@ export default function LocationCard() {
         <div className="w-full md:w-1/2 h-full">
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.667136532476!2d77.08695531508366!3d28.549946982450776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d193f0aef45b1%3A0xfdb569a6b8a9b51e!2sAndaz%20Delhi!5e0!3m2!1sen!2sin!4v1673522945678!5m2!1sen!2sin"
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=v hotel the grand shoba , 1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             width="100%"
             height="100%"
             style={{ border: 0, borderRadius: "0 12px 12px 0" }}
