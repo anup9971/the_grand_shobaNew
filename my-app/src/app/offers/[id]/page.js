@@ -9,7 +9,7 @@ import AboutSection from '@/app/components/room&suite/AboutSection';
 import BrandSection from '@/app/components/room&suite/BrandSection';
 
 
-export default function page({params}) {
+export default function Page({params}) {
   let {id }= useParams()
     let [condition,setCondition]= useState(false)
     const [copied, setCopied] = useState(false);

@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 
 import {  FiCalendar, FiUser, FiTag } from "react-icons/fi";
 import { IoIosArrowRoundBack } from 'react-icons/io';
-export default function page({params}) {
+export default function Page({params}) {
   let {id}= useParams()
   let router = useRouter()
   
