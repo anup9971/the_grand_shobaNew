@@ -15,7 +15,10 @@ import Bgtest from './components/Bgtest';
 export default function page() {
   return (
     <>
-       <CitySection/>
+    
+      <div className='bg-[#EEEEEE]'>
+
+         <CitySection/>
         <HotelIntro/>
         <RoomsAndSuites/>
         <HotelSlider/>
@@ -27,6 +30,7 @@ export default function page() {
         <PetsWelcome/>
         <AccessibilitySection/>
         <OffersSection/>
+      </div>
     </>
   )
 }

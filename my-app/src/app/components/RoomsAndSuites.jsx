@@ -26,7 +26,7 @@ export default function RoomsAndSuites() {
   className="relative 
              pt-10 sm:pt-16 
              px-4 sm:px-6 
-             bg-white rounded-3xl shadow-2xl 
+             bg-[#ffffff] rounded-3xl shadow-2xl 
              w-[95%] sm:w-[90%] lg:w-[80%] 
              mr-auto z-10 
              min-h-[32rem] sm:min-h-[36rem] lg:min-h-[40rem]

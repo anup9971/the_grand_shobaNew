@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import BrandSection from "./room&suite/BrandSection";
+import AboutSection from "./room&suite/AboutSection";
 
 const offers = [
   {
@@ -134,11 +135,12 @@ export default function OffersSection() {
   };
 
   return (
-    <section className="bg-black text-black py-16">
+<>
+    <section className="bg-[#f4f4f4] text-black py-16">
       <div className="max-w-7xl mx-auto px-4 relative">
         {/* Title */}
         <div className="flex justify-between items-center mb-10">
-          <h2 className="text-white text-4xl font-serif">OFFERS</h2>
+          <h2 className="text-black text-4xl font-serif">OFFERS</h2>
         <button className="border border-white px-6 py-2 text-sm font-semibold tracking-wide text-white bg-transparent hover:bg-white hover:text-black transition-colors duration-300">
   VIEW ALL OFFERS
 </button>
@@ -197,9 +199,9 @@ export default function OffersSection() {
 
       {/* Bottom Section - Bunkhouse Hotels */}
       <div className="max-w-7xl mx-auto px-4 mt-16">
-        <div className="border rounded-lg flex flex-col md:flex-row items-center bg-[#1a1a1a] p-6 md:p-10 gap-6">
+        <div className="border rounded-lg flex flex-col text-black md:flex-row items-center bg-[#ffffff] p-6 md:p-10 gap-6">
           {/* Left Text */}
-          <div className="flex-1 text-white">
+          <div className="flex-1 ">
             <h3 className="text-lg font-bold mb-3 uppercase">
               BUNKHOUSE HOTELS HAVE JOINED WORLD OF the grand shoba
             </h3>
@@ -227,7 +229,7 @@ export default function OffersSection() {
       </div>
 
       {/* Weddings & Meetings Section */}
-<div className="max-w-7xl mx-auto px-4 mt-20 text-center">
+<div className="max-w-7xl bg-[#ffffff] mx-auto px-4 mt-20 text-center">
 <h2 className="text-4xl font-serif mb-10 text-white">Weddings & Meetings</h2>
 
   <div className="flex flex-wrap justify-center gap-8">
@@ -287,9 +289,9 @@ export default function OffersSection() {
 
 
 {/* Footer Section */}
-<footer className="bg-[#F4552C] text-black py-10 mt-20">
+{/* <footer className="bg-[#F4552C] text-black py-10 mt-20">
   <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-black pb-6">
-    {/* Left Section */}
+    
     <div>
       <h3 className="font-serif text-lg mb-4">The Grand Shoba</h3>
       <p className="text-sm">
@@ -298,7 +300,7 @@ export default function OffersSection() {
       <p className="text-sm mt-2">Tel: 91 9953992143</p>
     </div>
 
-    {/* Center Section */}
+
     <div>
       <h4 className="font-semibold mb-2">Social</h4>
       <ul className="space-y-1 text-sm">
@@ -309,7 +311,7 @@ export default function OffersSection() {
       </ul>
     </div>
 
-    {/* Right Section */}
+    
     <div>
       <ul className="space-y-2 text-sm">
         <li><a href="#">Hotel Policies</a></li>
@@ -318,7 +320,7 @@ export default function OffersSection() {
     </div>
   </div>
 
-  {/* Big the grand shoba Logo with Brush */}
+  
   <div className="relative mt-8">
     <img
       src="/images/footer-brush.png"
@@ -327,13 +329,16 @@ export default function OffersSection() {
     />
     <h1 className="text-[6rem] font-serif text-center z-10 relative">THE GRAND SHOBA</h1>
   </div>
-</footer>
+</footer> */}
 
 
 
 {/* World of the grand shobaSection */}
-<BrandSection/>
     </section>
+    {/* <AboutSection/> */}
+    <BrandSection/>
+
+</>
 
 
 

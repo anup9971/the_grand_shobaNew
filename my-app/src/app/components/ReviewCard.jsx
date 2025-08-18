@@ -4,13 +4,13 @@ import { FaStar, FaStarHalfAlt, FaTripadvisor } from "react-icons/fa";
 export default function ReviewCard() {
   return (
     <section
-      className="relative text-black bg-black bg-cover bg-no-repeat py-20"
+      className="relative text-black bg-[#EEEEEE] bg-cover bg-no-repeat py-20"
       style={{
         backgroundImage: "url('/your-bg-image.jpg')", // replace with your image
         backgroundPosition: "top",
       }}
     >
-      <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8 relative z-10">
+      <div className="max-w-4xl mx-auto bg-[#ffffff] rounded-2xl shadow-lg p-8 relative z-10">
         {/* Title */}
         <h2 className="text-lg font-serif mb-2">Reviews</h2>
         <hr className="mb-6 border-black" />

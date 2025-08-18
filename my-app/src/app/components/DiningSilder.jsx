@@ -84,11 +84,11 @@ const slides = [
 
 export default function DiningSlider() {
   return (
-    <section className="relative mt-[-210px] md:mt-[-80px] bg-black text-white py-12">
+    <section className="relative mt-[-210px] md:mt-[-80px] bg-[#f4f4f4] text-black  py-12">
       {/* Title */}
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold">DINING</h1>
-        <button className="mt-4 px-6 py-2 border border-white hover:bg-white hover:text-black transition">
+        <button className="mt-4 px-6 py-2  border  hover:bg-black hover:text-white transition">
           DETAILS & RESERVATIONS
         </button>
       </div>

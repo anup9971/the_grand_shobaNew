@@ -3,11 +3,11 @@ import React from "react";
 
 export default function AccessibilitySection() {
   return (
-    <section className="bg-black text-black py-16 flex justify-center">
+    <section className="bg-[#ffffff] text-black py-16 flex justify-center">
       <div className="relative bg-[url('/images/paper-texture.png')] bg-cover bg-center rounded-lg max-w-4xl w-full shadow-lg overflow-hidden">
         
         {/* White overlay to make text readable */}
-        <div className="absolute inset-0 bg-white/85"></div>
+        <div className="absolute inset-0 bg-[#f4f4f4]"></div>
         
         {/* Content */}
         <div className="relative text-center px-8 py-12">

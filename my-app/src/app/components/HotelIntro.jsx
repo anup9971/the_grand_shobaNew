@@ -1,10 +1,8 @@
 export default function HotelInfoSection() {
   return (
     <section
-      className="relative bg-cover bg-center py-12"
-      style={{
-        backgroundImage: "url('/file.svg')", // background image path
-      }}
+      className="relative bg-[#ffffff] py-12"
+  
     >
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
         {/* Left Image */}
@@ -17,7 +15,7 @@ export default function HotelInfoSection() {
         </div>
 
         {/* Right Content */}
-        <div className="bg-white p-8 rounded-xl shadow-lg relative">
+        <div className="bg-[#f4f4f4] p-8 rounded-xl shadow-lg relative">
           {/* Decorative Brush */}
           <div className="absolute -top-4 -right-4 w-12 h-12 bg-[url('/images/brush-red.png')] bg-cover"></div>
 

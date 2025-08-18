@@ -4,7 +4,7 @@ import styles from "./CitySection.module.css";
 
 const CitySection = () => {
   return (
-    <section className={styles.citySection}>
+    <section className={`${styles.citySection} bg-[#f4f4f4]`}>
       <div className={styles.cityCard}>
         <div className={styles.videoWrapper}>
           <video
@@ -17,11 +17,11 @@ const CitySection = () => {
           />
         </div>
         <h2 className={`${styles.cityName} text-black font-serif`} >Delhi</h2>
-        <img
+        {/* <img
           src="/images/v-hotel-new1.jpg"
           alt="underline"
           className={styles.brushStroke}
-        />
+        /> */}
       </div>
     </section>
   );

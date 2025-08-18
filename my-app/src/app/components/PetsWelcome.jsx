@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function PetsWelcome() {
   return (
-    <section className="py-16 text-black bg-white">
+    <section className="py-16 text-black bg-[#f4f4f4]">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
         
         {/* Left Content */}
-        <div className="flex-1 bg-gray-50 p-8 rounded-xl shadow-sm">
+        <div className="flex-1 bg-[#ffffff] p-8 rounded-xl shadow-sm">
           <h2 className="text-3xl font-serif mb-4 border-b border-gray-300 pb-2">
             Pets Are Welcome
           </h2>

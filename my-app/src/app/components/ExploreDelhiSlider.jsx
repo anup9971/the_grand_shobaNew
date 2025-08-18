@@ -12,12 +12,12 @@ export default function ExploreDelhiSlider() {
   const [swiperReady, setSwiperReady] = useState(false);
 
   const places = [
-    { category: "SHOPPING", name: "Emporio Mall", distance: "2.2 MI / 3.61 KM AWAY", color: "bg-red-400" },
-    { category: "SHOPPING", name: "Aap ki Pasand Tea Gallery", distance: "9.5 MI / 15.36 KM AWAY", color: "bg-yellow-300" },
-    { category: "CULTURE & DAY TRIPS", name: "Gurudwara Bangla Sahib", distance: "7.3 MI / 11.77 KM AWAY", color: "bg-teal-300" },
-    { category: "SHOPPING", name: "Emporio Mall", distance: "2.2 MI / 3.61 KM AWAY", color: "bg-red-400" },
-    { category: "SHOPPING", name: "Aap ki Pasand Tea Gallery", distance: "9.5 MI / 15.36 KM AWAY", color: "bg-yellow-300" },
-    { category: "CULTURE & DAY TRIPS", name: "Gurudwara Bangla Sahib", distance: "7.3 MI / 11.77 KM AWAY", color: "bg-teal-300" },
+    { category: "SHOPPING", name: "Emporio Mall", distance: "2.2 MI / 3.61 KM AWAY", color: "bg-[#f4f4f4]" },
+    { category: "SHOPPING", name: "Aap ki Pasand Tea Gallery", distance: "9.5 MI / 15.36 KM AWAY", color: "bg-[#f4f4f4]" },
+    { category: "CULTURE & DAY TRIPS", name: "Gurudwara Bangla Sahib", distance: "7.3 MI / 11.77 KM AWAY", color: "bg-[#f4f4f4]" },
+    { category: "SHOPPING", name: "Emporio Mall", distance: "2.2 MI / 3.61 KM AWAY", color: "bg-[#f4f4f4]" },
+    { category: "SHOPPING", name: "Aap ki Pasand Tea Gallery", distance: "9.5 MI / 15.36 KM AWAY", color: "bg-[#f4f4f4]" },
+    { category: "CULTURE & DAY TRIPS", name: "Gurudwara Bangla Sahib", distance: "7.3 MI / 11.77 KM AWAY", color: "bg-[#f4f4f4]" },
   ];
 
   useEffect(() => {
@@ -25,20 +25,20 @@ export default function ExploreDelhiSlider() {
   }, []);
 
   return (
-    <div className="relative py-12">
+    <div className="relative bg-[#ffffff] text-black py-12">
       {/* Backgrounds */}
       <div
         className="absolute top-0 left-0 w-full h-1/2 bg-cover bg-center"
         style={{ backgroundImage: "url('/delhi-bg.jpg')" }}
       />
-      <div className="absolute top-0 left-0 w-full h-1/2 bg-black/40" />
-      <div className="absolute bottom-0 left-0 w-full h-1/2 bg-black" />
+      {/* <div className="absolute top-0 left-0 w-full h-1/2 bg-black/40" /> */}
+      {/* <div className="absolute bottom-0 left-0 w-full h-1/2 bg-black" /> */}
 
       <div className="relative container mx-auto px-4">
         {/* Header */}
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-4xl font-bold text-white">Explore Delhi</h2>
-          <button className="bg-red-500 px-4 py-2 font-bold uppercase text-white">
+        <div className="md:flex justify-between items-center mb-6">
+          <h2 className="md:text-4xl text-black text-2xl font-bold ">Explore Delhi</h2>
+          <button className="bg-black px-4 py-2 mt-5 font-bold uppercase text-white">
             See All Attractions
           </button>
         </div>

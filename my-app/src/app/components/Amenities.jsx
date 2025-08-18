@@ -34,7 +34,7 @@ const amenitiesList = [
 
 export default function Amenities() {
   return (
-    <section className="py-16 text-black bg-white">
+    <section className="py-16 text-black bg-[#ffffff] shadow-xl">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row gap-8">
         
         {/* Left Side - Image */}
@@ -48,7 +48,7 @@ export default function Amenities() {
         </div>
 
         {/* Right Side - Content */}
-        <div className="w-full md:w-1/2 flex flex-col justify-center">
+        <div className="w-full  md:w-1/2 flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-center md:text-left">
             Amenities
           </h2>

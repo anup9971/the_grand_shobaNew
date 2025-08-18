@@ -3,7 +3,7 @@ import React from "react";
 
 export default function LocationCard() {
   return (
-    <div className="relative bg-black flex justify-center items-center min-h-screen">
+    <div className="relative bg-[#ffffff] flex justify-center items-center min-h-screen">
       {/* Background Brush Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -15,7 +15,7 @@ export default function LocationCard() {
       {/* Main Content */}
       <div className="relative z-10 text-black mt-[-300px] md:mt-[0] flex flex-col md:flex-row items-stretch p-0 h-[300px] w-[95%] md:w-[80%]">
         {/* Left Content */}
-        <div className="bg-white rounded-none md:rounded-l-xl p-6 shadow-lg w-full md:w-1/2 flex flex-col justify-center">
+        <div className="bg-[#f4f4f4] rounded-none md:rounded-l-xl p-6 shadow-lg w-full md:w-1/2 flex flex-col justify-center">
           <h2 className="text-2xl font-bold mb-2">The Grand Shoba</h2>
           <p className="flex items-center text-gray-700 mb-1">
             📍 1031, Gate no. 2,  Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037

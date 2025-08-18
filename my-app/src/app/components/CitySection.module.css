@@ -1,6 +1,6 @@
 .citySection {
   /* background-color: #1a1a1a;  */
-  background-image: url('/images/roombg.png'); /* replace with your image path */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,10 +9,11 @@
 }
 
 .cityCard {
-  background: white;
+  padding: 0px  25px ;
+  background: #EEEEEE;
   padding: 0; /* remove padding */
   border-radius: 8px;
-  max-width: 900px;
+  max-width: 1300px;
   width: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
